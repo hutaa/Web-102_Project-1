@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+  --bg-primary:   #fff3e0;  /* pale peach */
+  --bg-secondary: #ffffff;  
+  --text-primary: #6d214f;  /* deep plum */
+  --accent:       #f08a5d;  /* warm coral */
+  --muted:        #f4c8b5;  /* soft gold */
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+
+h1, h2, h3 { color: var(--text-primary); }
+button {
+  background-color: var(--brand-accent);
+}
+
+.hero {
+  background: url('/path/to/beach.jpg') center/cover no-repeat;
+  color: #fff; 
+  padding: 4rem;
+}
+
+
+.event-types p {
+  color: var(--text-gray);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.event-types h3 {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+.event-img {
+  width: 235px;
+  height: 240px;
+  margin: 0 0.5em;
+  border-radius: 8px;
+  object-fit: cover;  
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 2em;
+  align-items: flex-start; 
+}
+
+.event-types {
+  border: 3px solid rgba(153, 153, 153, 0.497);
+  border-radius: 8px;
+  padding: 20px 10px;
+  flex: 0 1 260px;
+  align-self: center;
+  background: #fff;                 /* make sure cards sit on white */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: var(--bg-secondary);
+  border-color: var(--muted);
+}
+
+.event-types:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+button {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding-top: 0.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.3em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: var(--accent);
+}
+
+h2 {
+  font-style: italic;
+}
+
+
+@media (max-width: 600px) {
+  h1 { font-size: 1.8rem; }
+  .hero { padding: 3rem 1rem; }
+}
+
