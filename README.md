@@ -4,7 +4,7 @@ Submitted by: **Atuh Fon**
 
 This web app: **ExploreMD is an interactive community board built with React and Vite that helps locals and visitors discover the best Maryland has to offer. From historic landmarks in Annapolis, scenic hikes along the C&O Canal, and the freshest crab houses on the Eastern Shore to the sandy shores of Ocean City and wild horses of Assateague Island, each hand-picked destination is presented as a card complete with an image, title, brief description, and a “View Location” button. Built with modern web standards—including responsive Flexbox/Grid layouts, component-based architecture, and clean, maintainable styling—ExploreMD makes browsing Maryland’s top spots simple and engaging.**
 
-Time spent: **3** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
