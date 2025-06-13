@@ -2,28 +2,28 @@
 
 Submitted by: **Atuh Fon**
 
-This web app: **ExploreMD is an interactive community board built in React + Vite that helps locals and visitors discover the best Maryland has to offer. Whether you’re hunting for historic landmarks in Annapolis, scenic hikes in the C&O Canal, or the freshest crab houses on the Eastern Shore, ExploreMD makes it easy to browse, filter, and learn about each spot.**
+This web app: **ExploreMD is an interactive community board built with React and Vite that helps locals and visitors discover the best Maryland has to offer. From historic landmarks in Annapolis, scenic hikes along the C&O Canal, and the freshest crab houses on the Eastern Shore to the sandy shores of Ocean City and wild horses of Assateague Island, each hand-picked destination is presented as a card complete with an image, title, brief description, and a “View Location” button. Built with modern web standards—including responsive Flexbox/Grid layouts, component-based architecture, and clean, maintainable styling—ExploreMD makes browsing Maryland’s top spots simple and engaging.**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
-  - [ ] Header/title describing the theme is displayed
-- [ ] **At least 10 unique events or resources are displayed in a responsive card format**
-  - [ ] There are at least 10 cards displayed 
-  - [ ] The cards should be displayed in an organized format (ex. a grid, or in one line)
-  - [ ] Each card should include some information about the event or resource
+- [x] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
+  - [x] Header/title describing the theme is displayed
+- [x] **At least 10 unique events or resources are displayed in a responsive card format**
+  - [x] There are at least 10 cards displayed 
+  - [x] The cards should be displayed in an organized format (ex. a grid, or in one line)
+  - [x] Each card should include some information about the event or resource
 
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-  - [ ] All cards have buttons or links in addition to text
-- [ ] The site is responsive for both desktop and mobile formats
-  - [ ] Web app is shown in a mobile format
+- [x] Buttons or links to a related resources are on each card component
+  - [x] All cards have buttons or links in addition to text
+- [x] The site is responsive for both desktop and mobile formats
+  - [x] Web app is shown in a mobile format
 
 The following **additional** features are implemented:
 
@@ -31,20 +31,18 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+<img src='ExploreMD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+[EzGIF](https://ezgif.com/) for Windows
 
-## Notes
+## Challenges
 
-Describe any challenges encountered while building the app.
+Responsive Flexbox: Getting exactly five cards per row that stay centered and top-aligned—even when some cards have more content—meant constant tweaking of flex-wrap, justify-content, align-items, gap, and item basis until everything behaved across breakpoints.
+
+Render Debugging: Pinning down “which output runs” involved tracing component imports/exports, confirming prop flows, and using console logs + React DevTools to ensure the right component was rendering at each step.
+
+UI: Trouble figuring out how the website should look. I'm not that well verse in making eye catching UIs.
 
 ## License
 
